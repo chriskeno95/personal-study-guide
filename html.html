@@ -8,12 +8,64 @@
     <title>Chris's Study Guide</title>
   </head>
   <body>
-    <header id="top">
-      <img class="top-image" src="./assets/bowtie-cat.png" alt="Profile image of cat wearing a bow tie." />
-      <h4>Chris's Personal Study Guide</h4>
+    <header id="top-notes">
+        <a href="./index.html"><img class="notes-top-image" src="./assets/bowtie-cat.png" alt="Profile image of cat wearing a bow tie." /></a>
+      <a href="./index.html"><h4>Chris's Personal Study Guide</h4></a>
     </header>
+  <div class="container">
+    <h1>My HTML notes</h1>
+            <form action="">
+                <input type="text" id="note-title" placeholder="Note title"> <br>
+                <textarea id="note-text" placeholder="Note Details"></textarea> <br>
+            
+                <button id="add-btn">Add Note</button>
+            </form>
+        </div>
     
-    <ul>
+
+    <section>
+        <div class="container">
+            <h2>My Notes</h2>
+            <hr>
+            <div id="notes">
+        
+                    <div class="note">
+                        <p class="note-counter">Note ${index + 1}</p> 
+                        <h3 class="note-title"> $element.title </h3> 
+                        <p class="note-text"> $element.text</p> 
+                        <button class="note-btn">Delete Note</button> 
+                        <button class="notr-btn edit-btn">Delete Note</button>
+                    </div>
+                
+            </div>
+        </div>
+    </section>
+    
+
+    <script src="notes.js"></script>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+</div>
+    
+
+   <!-- <ul>
           <li>Enter your HTML notes here</li>
         </ul>
         <ul>
@@ -24,8 +76,9 @@
           <li>Elements that hold nested elements are called <em><strong>Parent elements</strong></em></li>
           <li>An <em><strong>element</strong></em> refers to the entire element from opening tag to closing tag, whereas a <em><strong>tag</strong></em> refers only to what appears inside the angle brackets.</li>
         </ul>
+    -->
 
-        <footer>
+        <footer class="notes-footer">
             <p><em>created by Christopher Kennedy</em></p>
                 </footer>
                 <script src="./assets/script.js"></script>
