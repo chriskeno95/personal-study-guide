@@ -108,3 +108,188 @@ color: #000;}
 a:hover {color: #5d52f5;}
 
 article:hover {box-shadow: 7px 7px 7px rgba(0, 0, 0, 0.3);}
+
+.main-notes {
+  margin-top: 50px;
+}
+
+#top-notes {
+  position: relative;
+  padding-bottom: 20px;
+}
+.notes-top-image {float: left;
+  margin-left: 20px;
+margin-top: 20px;}
+
+#top-notes h4 {
+  margin-top: 33px;
+}
+
+.notes-footer {position: relative;
+margin-top: 500px;
+width: 100%;}
+
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;400;600;700&display=swap');
+
+
+:root {
+    --white: #fff;
+    --black: #1c2b2d;
+    --blue: #31326f;
+    --color-primary: #ddf4f4;
+    --color-sec: #4a8484;
+    --color-grey: #eee;
+    --color-dark-grey: #222831;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Open Sans', sans-serif;
+    background-color: rgb(255, 255, 255);
+}
+
+/* UTILITY */
+.p-small {
+    padding-bottom: 5px;
+}
+.p-medium {
+    padding-bottom: 10px;
+}
+.p-y {
+    padding: 10px 0;
+}
+.m-y {
+    margin: 10px 0;
+}
+
+p {
+    font-size: 1.6rem;
+    line-height: 1.5;
+}
+
+img {
+    width: 100%;
+}
+
+.container {
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 0 20px;
+}
+
+header h1 {
+    font-size: 2.5rem;
+    color: var(--color-primary);
+    line-height: 2;
+}
+
+header form {
+    display: flex;
+    flex-direction: column;
+    width: 30rem;
+}
+
+form > * {
+    margin-bottom: 15px;
+    outline: none;
+    font-size: 1.2rem;
+    padding: 7px 170px 20px 5px;
+    border: 1px solid #777;
+    border-radius: 3px;
+}
+
+form textarea {
+    padding: 7px 170px 70px 5px;
+    font-size: 1.2rem;
+    font-family: inherit;
+}
+
+::placeholder {
+    font-size: 1rem;
+}
+
+form button {
+    background-color: var(--color-sec);
+    color: #fff;
+    font-size: 1.2rem;
+    font-weight: bold;
+    border: none;
+    cursor: pointer;
+    transition: all .3s;
+}
+
+form button:hover {
+    background-color: var(--color-primary);
+}
+
+.note {
+    padding: 1rem;
+    /* border: 1px solid #777; */
+    background-color: rgb(249, 249, 249);
+    border-radius: 3px;
+    margin: 1rem 0;
+
+}
+
+.note-counter {
+  font-size:0.8rem ;
+  position: relative;
+  padding-left: 0px;
+  width: 10%;
+}
+.note-text {
+  margin-top: 5px;
+    font-size: 1.2rem;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    padding-left: 15px;
+    border: none;
+    width: 90%;
+    text-align: left;
+}
+
+
+#add-btn {padding: 10px 10px 10px 10px;
+
+}
+
+
+.note-title {
+    font-size: 1.5rem;
+    color: var(--black);
+    position: relative;
+  margin: 5px 0px 0px 0px;
+  padding-top: 3px;
+  padding-left: 15px;
+}
+
+.note-btn {
+    padding: 7px;
+    margin-top: 5px;
+    font-size: 1rem;
+    background-color: orangered;
+    color: #fff;
+    border: none;
+    border-radius: 3px;
+    outline: none;
+    cursor: pointer;
+}
+
+.edit-btn {
+    background-color: var(--color-sec);
+}
+.edit-btn:hover {
+  background-color: var(--color-primary);
+}
+
+.container h1 {margin-top: 20px;
+margin-bottom: 10px;}
+
+.container h2 {margin-top: 20px;
+  margin-bottom: 10px;}
+  
