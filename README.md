@@ -17,7 +17,8 @@ To use this Prework Study Guide, you can review the notes in each section. For s
 
 To use the notes section, navigate to the page that you want to use (i.e learn html). Here you can type notes for the subject you are learning. simply type html as the title then add your html notes in the "note details box".
 
-
+## link
+you can view this page [here] (https://chriskeno95.github.io/personal-study-guide/)
 
 ## Credits
 Zinotrust - for his Javascript local storage, note taking app tutorial.
